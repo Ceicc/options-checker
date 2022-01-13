@@ -42,7 +42,7 @@ function optionsChecker(opts, config) {
     }
   }
 
-  // Clean unspecified propertys
+  // Clean unspecified properties
   for (const property in opts) {
     if (Object.hasOwnProperty.call(opts, property) && config[property]?.done !== true) {
       delete opts[property]
