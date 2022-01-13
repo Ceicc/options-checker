@@ -1,7 +1,7 @@
 {
   "name": "options-checker",
   "version": "1.0.0",
-  "description": "Complete mangment over any object's properties",
+  "description": "Complete management over any object's properties",
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
