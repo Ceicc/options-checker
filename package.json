@@ -17,6 +17,7 @@
   ],
   "author": "Husam Ahmed",
   "license": "MIT",
+  "private": false,
   "bugs": {
     "url": "https://github.com/Ceicc/options-checker/issues"
   },
