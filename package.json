@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "postversion": "echo \"`nPushing to Github`n\"; git push; echo \"`nPushing Tags to Github`n\"; git push --tags; echo \"`nPublishing to NPM registry`n\"; npm publish"
+    "postversion": "git push; git push --tags; npm publish"
   },
   "repository": {
     "type": "git",
