@@ -17,7 +17,7 @@ import optionsChecker from "@ceicc/options-checker"
 ```
 ### Browser
 ```html
-<script defer src="https://unpkg.com/@ceicc/options-checker@^0"></script>
+<script defer src="https://unpkg.com/@ceicc/options-checker@^1"></script>
 ```
 
 ## Usage Example
