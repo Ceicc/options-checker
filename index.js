@@ -1,5 +1,6 @@
-module.exports = optionsChecker
-
+if (typeof module === "object" && module.exports) { // For Browsers Support
+  module.exports = optionsChecker
+}
 /** 
  * @typedef {object} configProperty
  * @property {any} default - the default value to fall on
