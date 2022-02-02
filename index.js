@@ -31,7 +31,10 @@ function optionsChecker(opts, config) {
     const arrayOfTypes = config[property].type.split("|")
 
     for (const type of arrayOfTypes) {
-      if (typeof opts[property] === type) {
+      if (
+        typeof opts[property] === type.toLowerCase() ||
+        type.toLowerCase() === "array" && Array.isArray(opts[property])
+      ) {
         config[property].done = true
         break
       }
