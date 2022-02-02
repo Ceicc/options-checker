@@ -1,6 +1,6 @@
 {
   "name": "@ceicc/options-checker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Complete management over any object's properties",
   "main": "index.js",
   "scripts": {
